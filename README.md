@@ -43,5 +43,18 @@ Navigate to [makerchip](https://makerchip.com)
 
 ![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/647f822d-008f-48ec-ae93-ade2da37db85)
 
+#### H) Sequential Calculator 
+  Input val1 is the previous output of calculator
+
+![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/9192605d-1221-46fd-bac3-c1f06352ac16)
+
+#### I) A simple pipeline through Pythagorean example
+
+![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/923022a1-7bc4-4fd6-95e8-c0ea41405aba)
+
+#### J) Pipeline Implementation example
+
+![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/2a58ccd8-e1ca-42bd-af79-2a277bc72265)
+
 
 </details>
