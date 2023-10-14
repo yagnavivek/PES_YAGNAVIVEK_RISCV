@@ -56,9 +56,6 @@ Navigate to [makerchip](https://makerchip.com)
 
 ![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/2a58ccd8-e1ca-42bd-af79-2a277bc72265)
 
-#### K) 2-cycle calculator
-
-![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/d5fec099-ac92-441c-9b6c-2aee6de41a85)
 
 ## Validity 
 - Easier debug
@@ -66,6 +63,18 @@ Navigate to [makerchip](https://makerchip.com)
 - Better error checking
 - Automated clock gating
 
+#### K) 2 cycle calculator with validity
+
+![Screenshot from 2023-10-14 18-00-53](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/3e2e5fe1-2cbf-485d-a4e6-a6976e07e755)
+
+
+#### L) Distance Calculator
+
+![Screenshot from 2023-10-14 18-53-33](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/64701bdb-aa3e-4323-a2f4-2f2fa51a776c)
+
+#### M) Calulator_memory
+
+![Screenshot from 2023-10-14 18-58-48](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/bfc81566-6343-42e7-bfea-4ace15c2bfcf)
 
 
 </details>
