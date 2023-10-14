@@ -56,5 +56,16 @@ Navigate to [makerchip](https://makerchip.com)
 
 ![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/2a58ccd8-e1ca-42bd-af79-2a277bc72265)
 
+#### K) 2-cycle calculator
+
+![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/d5fec099-ac92-441c-9b6c-2aee6de41a85)
+
+## Validity 
+- Easier debug
+- cleaner design
+- Better error checking
+- Automated clock gating
+
+
 
 </details>
