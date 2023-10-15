@@ -78,3 +78,66 @@ Navigate to [makerchip](https://makerchip.com)
 
 
 </details>
+
+<details>
+<summary>DAY 4 : Basic RISC-V CPU Micro Architecture</summary>
+<br>
+
+# RISC-V Implementation Blueprint
+
+![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/140a5803-8436-47a0-9e84-945284415482)
+
+Link for the starter code [starter code](https://myth.makerchip.com/sandbox?code_url=https:%2F%2Fraw.githubusercontent.com%2Fstevehoover%2FRISC-V_MYTH_Workshop%2Fmaster%2Frisc-v_shell.tlv#) 
+
+Codes for each step reported below can be found here [Day4 Codes]()
+
+## 1. Program Counter
+
+![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/86ebf67f-95ab-4a2b-8002-3eb1789966c6)
+
+## 2. Instruction Fetch
+
+![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/3c9f61c7-124d-4dd7-b6d7-254da8ed16b3)
+
+
+## 3.Instruction Decode
+
+![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/3464a32d-62c8-4a50-aef2-2c7e7000a179)
+
+## 4. Instruction Decode with validity
+
+![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/06ea8486-6e91-4524-bff7-1b37cc0ff349)
+
+## 5. Individual Instruction decode
+
+![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/e870f9db-de18-4052-b2d4-189dc0eddb92)
+
+## 6. Register file read
+
+![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/a9c98216-a816-4fcf-974f-75fceeacbecd)
+
+## 7. ALU
+
+![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/6a29d2b9-9354-48fa-8303-b09d90bf8b8c)
+
+## 8. Register File Write
+
+![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/0c766dc9-3cd6-4387-bf9f-4167558ec240)
+
+## 9. Branch Instructions
+
+![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/5e41c6a7-deac-411a-b439-05ff52215eb8)
+
+## 10. Testbench to check functionality
+
+![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/857f16f1-e979-4e0f-a3f1-415392c6c85b)
+
+</details>
+
+<details>
+<summary>DAY 5 : Complete Pipelined RISC-V Micro Architecture </summary>
+<br>
+
+
+</details>
+
