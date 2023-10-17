@@ -138,6 +138,78 @@ Codes for each step reported below can be found here [Day4 Codes](https://github
 <summary>DAY 5 : Complete Pipelined RISC-V Micro Architecture </summary>
 <br>
 
+- Pipelining helps improve the operating frequency by breaking down the micro-arch ito substages that consume lesser time.But this process intriduces some hazards and dependencies such as
+  - Data Hazards
+  - Structural Hazards
+  - Control Hazards
+  - Name Dependence
+  - Anti Dependence
+  - Output Dependence
+
+ ## 3-cycle RISC-V
+
+ - A simple pipeline approach where we divide the arch into 3 stages ie., PC, Decode to ALU, Reg write.
+ - This requires a valid signal that is generated every 3 clock cylces
+
+### Generation of 3 cycle valid signal
+
+![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/cef37901-c4f9-4382-af6c-f778a1aaaa4a)
+
+- There might be some invalid cycles (invalid operation when valid is on) being encountered in this proccess. SO we have to take care of them.
+
+### 3-cycle RISC-V To take care of invalid signals
+
+- Avoid writing into register file for invalid operations
+- Avoid redirecting PC for nvalid instructions(branch)
+
+![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/1a2ec7de-4ab5-4e8c-bf8f-4024191dd641)
+
+### Introduce 5 stage pipeline 
+
+- 5 stage pipeline : PC, Decode, Reg Rd, ALU, Reg write
+
+## Solutions to Pipeline Hazards
+
+1. Register file bypass
+
+![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/9be47987-9e97-4eed-9c5e-8e65f0f158f2)
+
+2. Correct the branch target path
+
+![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/2fffda72-1a4f-4b81-8643-dfa2a7fe8c7a)
+
+3. Complete Instruction Decode
+
+![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/4f2127df-b28f-47e0-abac-37e7648f8ef2)
+
+4. Complete ALU
+
+![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/dfb54415-4cda-434c-b175-11703f128ec8)
+
+## Completing RISC-V CPU with final touch of Load/Store Instructions
+
+1. Redirecting Loads
+
+![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/066cf305-0aa3-41fe-a937-f5ad39095d91)
+
+2. Load Data from Memory to register file
+
+![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/f0fee7f9-9bf4-4a38-8386-275a52ebfecf)
+
+3. Instantiate Data memory to CPU
+
+![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/03573672-9076-4c12-a8ac-c0fb43c2722d)
+
+4. Add loads and stores to test the program
+
+```
+m4_asm(SW r0, r10, 100)
+m4_asm(LW r15, r0, 100)
+```
+5. Lab for jump instructions
+
+![image](https://github.com/yagnavivek/PES_YAGNAVIVEK_RISCV/assets/93475824/ec4d2fcf-143a-40e9-b991-912637bc4372)
+
 
 </details>
 
